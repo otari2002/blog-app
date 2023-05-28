@@ -1,0 +1,22 @@
+GET http://localhost:3000/categories HTTP/1.1
+
+###
+
+GET http://localhost:3000/categories/Fantasy HTTP/1.1
+
+###
+
+GET http://localhost:3000/categories/Health HTTP/1.1
+
+###
+
+POST http://localhost:3000/categories/ HTTP/1.1
+content-type: application/json
+    
+{
+"name": "Sci-Fi"
+}
+
+###
+
+DELETE http://localhost:3000/categories/Fantasy HTTP/1.1

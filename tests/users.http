@@ -1,0 +1,54 @@
+GET http://localhost:3000/users/otari2002 HTTP/1.1
+
+###
+
+GET http://localhost:3000/users HTTP/1.1
+
+###
+
+POST http://localhost:3000/users HTTP/1.1
+content-type: application/json
+
+{
+    "name": "test",
+    "email": "test@gmail.com",
+    "password": "omartahri2002",
+    "role": "AUTHOR"
+}
+
+###
+
+###
+
+POST http://localhost:3000/login HTTP/1.1
+content-type: application/json
+
+{
+    "username": "otari2002",
+    "password": "12345"
+}
+
+###
+
+PATCH http://localhost:3000/users HTTP/1.1
+content-type: application/json
+
+{
+    "name": "test_omar",
+    "email": "test@gmail.com",
+    "password": "omartahri2002",
+    "role": "AUTHOR",
+}
+
+###
+
+PATCH http://localhost:3000/users/accept HTTP/1.1
+content-type: application/json
+
+{
+    "name": "test"
+}
+
+###
+
+DELETE http://localhost:3000/users/test11 HTTP/1.1 

@@ -1,0 +1,299 @@
+html{
+    background-color: #bbbbbe72;
+}
+
+.nav-link{
+    font-weight: 700;
+}
+
+
+.nav-item{
+    text-align: center;
+}
+
+.passLabel {
+    display: block;
+    padding-left: 15px;
+    text-indent: -15px;
+}
+
+.showPass {
+    width: 15px;
+    height: 15px;
+    padding: 0;
+    margin: 0;
+    vertical-align: middle;
+    position: relative;
+    top: -1px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+button:hover {
+    opacity: 0.7;
+}
+
+#registerView{
+    margin-right: 20px;
+}
+
+#addButton{
+    background-color: #4CAF50;
+    width:50%;
+}
+#updateButton{
+    background-color: #007bff;
+    width:50%;
+}
+#deleteButton{
+    background-color: #e53d3d ;
+    width:50%;
+}
+
+#categoryManage{
+    background-color: #4CAF50;
+    width:50%;
+}
+#authorDelete{
+    background-color: #e53d3d;
+    width:50%;
+}
+#authorAccept{
+    background-color: #007bff;
+    width:50%;
+}
+
+.cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #f44336;
+}
+
+.formcontainer {
+    padding: 16px;
+}
+span.psw {
+    float: right;
+    padding-top: 16px;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: #000;
+    background-color: rgba(0,0,0,0.4);
+    padding-top: 60px;
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 5% auto 15% auto;
+    border: 1px solid #888;
+    width: 80%;
+}
+
+.close {
+    position: absolute;
+    right: 25px;
+    top: 0px;
+    color: #000;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.close:hover, .close:focus {
+    color: red;
+    cursor: pointer;
+}
+
+.blog {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+@media (min-width: 992px) {
+    .blog {
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+}
+
+.bg-sand {
+    background-color: #bbbbbe72;
+}
+
+h1{
+    margin-bottom: 20px;
+}
+
+a{
+    color:black;
+    text-decoration:none
+}
+
+.pageButtons {
+    text-align:center;
+    margin-top:20px;   
+ }
+
+#lastPage, #nextPage, #lastPageUpdate, #nextPageUpdate, #lastPageDelete, #nextPageDelete{
+    font-size:x-large;
+    margin-left: 20px;
+}
+
+.authorName{
+    margin-top: 15px;
+}
+
+.content{
+    font-weight: 400;
+    color: rgba(41, 41, 41, 1);
+    font-family: source-serif-pro, Georgia, Cambria, "Times New Roman", Times, serif;
+    font-size: 25px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.articleDetails p{
+    font-size: 18px;
+}
+
+#articlesActions button{
+    margin-top: 25px;
+}
+
+button.update{
+    background-color: #1242d1;
+}
+
+button.add{
+    background-color: #4CAF50;
+}
+
+.checkbox, .publishBox{
+    margin: 4px;
+    background-color: #c5c6c6;
+    border-radius: 4px;
+    border: 1px solid #fff;
+    overflow: hidden;
+    float: left;
+}
+
+.checkbox label{
+    float: left; line-height: 3.0em;
+    width: 8.0em; height: 3.0em;
+}
+
+#publishBox0{
+    width: 100%; height: 3.0em;
+}
+
+#publishBox0 label{
+    width: 100%;
+}
+
+#publishBox1{
+    width: 100%; height: 3.0em;
+}
+
+#publishBox1 label{
+    width: 100%;
+} 
+
+.checkbox label span {
+    text-align: center;
+    font-weight: bold;
+    padding: 3px 0;
+    display: block;
+}
+
+.checkbox label input {
+    position: absolute;
+    display: none;
+    color: #fff !important;
+}
+
+#addForm input:checked + span{background-color: #4caf50;color:white;}
+#updateForm input:checked + span{background-color: #1242d1;color:white;}
+
+input#publish0:checked + span{background-color: #4caf50;color:white;}
+
+input#publish1:checked + span{background-color: #1242d1; color:white;}
+
+#commentsList p{
+    font-size: 18px;
+}
+
+.alert-box {
+    position:fixed; 
+    top: 100px; 
+    right: 0;
+    z-index:9999;
+    display: table-cell; 
+    vertical-align: middle;
+    font-size: large;
+    font-weight: 500;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    width:30%;
+    margin-right:20px;
+    color:white;
+    opacity: 0.7;
+    padding-left: 20px;
+    margin-right: 20px;
+    border-color: #000000;
+    display: none;
+}
+
+#addCatContainer {
+    display: flex;
+    align-items: center;
+    width: 300px;
+    margin-bottom: 30px;
+}
+
+#categoryToAdd {
+    flex: 1;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#addCatButton {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width:80px;
+}
+
+#addCatButton:hover {
+    background-color: #45a049;
+}
+

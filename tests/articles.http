@@ -1,0 +1,41 @@
+POST http://localhost:3000/articles HTTP/1.1
+content-type: application/json
+
+{
+    "title": "a test title",
+    "content": "a test content.",
+    "published": true,
+    "authorName": "Itzel",
+    "categories": [  "natus" ]
+}
+
+###
+
+GET http://localhost:3000/articles/7 HTTP/1.1
+
+###
+
+GET http://localhost:3000/articles HTTP/1.1
+
+###
+
+GET http://localhost:3000/articles?skip=1&take=2 HTTP/1.1
+
+###
+
+PATCH  http://localhost:3000/articles HTTP/1.1
+content-type: application/json
+
+{
+    "id": "455",
+    "title": "Article 1",
+    "content": "this is scontent",
+    "imageUrl": "",
+    "published": true,
+    "authorName": "Itzel",
+    "categories": [ "natus" , "itaque" ]
+}
+
+###
+
+DELETE  http://localhost:3000/articles/321 HTTP/1.1
